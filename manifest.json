@@ -1,15 +1,16 @@
 {
   "name": "Glanced PR",
-  "action": {},
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 3,
   "description": "It make pull requests easier to see.",
-  "permissions": [
-    "activeTab",
-    "scripting",
-    "webNavigation"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  }
+  "content_scripts": [
+    {
+      "js": [
+        "content-script.js"
+      ],
+      "matches": [
+        "https://github.com/*"
+      ]
+    }
+  ]
 }
