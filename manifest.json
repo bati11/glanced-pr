@@ -1,6 +1,6 @@
 {
   "name": "Glance PR",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "description": "It make pull requests easier to see.",
   "content_scripts": [
