@@ -1,6 +1,6 @@
 const style = `<style>
   .octicon-git-pull-request.color-fg-open {
-    border: 3px solid #30a14e;
+    border: 2px solid #30a14e;
     width: 30px;
     height: 30px;
     cursor: pointer;
